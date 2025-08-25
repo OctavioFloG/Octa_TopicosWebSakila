@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Sakila Web</title>
+    <title>Octa Sakila Web</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
         h1 { color: #333; }
@@ -11,8 +11,8 @@
     </style>
 </head>
 <body>
-    <h1>🎬 Bienvenido a Sakila Web</h1>
-    <p>Explora la base de datos de ejemplo <b>Sakila</b>:</p>
+    <h1>🎬 Bienvenido a Octa Sakila Web</h1>
+    <p>Base de datos de ejemplo <b>Sakila</b>:</p>
     <a href="films.php">📽️ Ver Películas</a><br>
     <a href="actors.php">⭐ Ver Actores</a>
 </body>

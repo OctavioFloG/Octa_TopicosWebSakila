@@ -1,14 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "1234";
-$dbname = "sakila";
-
-// Conexión a MariaDB
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Conexión fallida: " . $conn->connect_error);
-}
+include 'db.php';
 
 $sql = "SELECT actor_id, first_name, last_name FROM actor LIMIT 20";
 $result = $conn->query($sql);
